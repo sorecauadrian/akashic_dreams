@@ -1,0 +1,204 @@
+:root
+{
+	--a: #13093A;
+	--b: #0F0734;
+	--c: #1C0A3D;
+	--d: #1A0E42;
+	--e: #4D1E6A;
+	--f: #603189;
+	--g: #130C3D;
+	--h: #1D0C3E;
+	--i: #210E45;
+	--j: #2B1D5D;
+
+	--orange1: #FFBC80;
+	--orange2: #FF9F45;
+	--orange3: #F76E11;
+	--yellow1: #FFCA03;
+	--yellow2: #FFF323;
+	--yellow3: #FFF89A;
+	--green1: #E9EFC0;
+	--green2: #B4E197;
+	--green3: #83BD75;
+	--blue1: #43919B;
+	--blue2: #30AADD;
+	--blue3: #00FFC6;
+	--purple1: #4700D8;
+	--purple2: #9900F0;
+	--purple3: #F900BF;
+}
+
+.background
+{
+	background-color: #13093A;
+  	background-image: 
+  	radial-gradient(
+	  	1000px circle at 0% 0%,
+	    #4D1E6A 20%,
+	    #210E45 40%,
+	    #1D0C3E 60%,
+	    #1C0A3D 80%,
+	    transparent 100%),
+    radial-gradient(
+	   	1500px circle at 100% 100%,
+	    #4D1E6A 20%,
+	    #210E45 40%,
+	    #1D0C3E 60%,
+	    #1C0A3D 80%,
+	    transparent 100%);
+	background-size: auto;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	min-height: 100vh;
+	max-width: 100vw;
+	color: white;
+}
+
+.bg-lucidity-1
+{
+	background-color: #43919B00;
+  	background-image: 
+  	radial-gradient(
+	  	500px circle at 0% 100%,
+	    #00FFC600 25%,
+	    #30AADD00 50%,
+	    #43919B00 75%,
+	    transparent 100%),
+    radial-gradient(
+	   	500px circle at 100% 0%,
+	    #00FFC600 25%,
+	    #30AADD00 50%,
+	    #43919B00 75%,
+	    transparent 100%);
+    background-size: auto;
+	background-repeat: no-repeat;
+}
+
+.bg-lucidity-2
+{
+	background-color: #43919B40;
+  	background-image: 
+  	radial-gradient(
+	  	500px circle at 0% 100%,
+	    #00FFC640 25%,
+	    #30AADD40 50%,
+	    #43919B40 75%,
+	    transparent 100%),
+    radial-gradient(
+	   	500px circle at 100% 0%,
+	    #00FFC640 25%,
+	    #30AADD40 50%,
+	    #43919B40 75%,
+	    transparent 100%);
+    background-size: auto;
+	background-repeat: no-repeat;
+}
+
+.bg-lucidity-3
+{
+	background-color: #43919BFF;
+  	background-image: 
+  	radial-gradient(
+	  	500px circle at 0% 100%,
+	    #00FFC6FF 25%,
+	    #30AADDFF 50%,
+	    #43919BFF 75%,
+	    transparent 100%),
+    radial-gradient(
+	   	500px circle at 100% 0%,
+	    #00FFC6FF 25%,
+	    #30AADDFF 50%,
+	    #43919BFF 75%,
+	    transparent 100%);
+    background-size: auto;
+	background-repeat: no-repeat;
+}
+
+.bg-progress
+{
+	background:-moz-linear-gradient(left, var(--purple1) 0%, var(--purple2) 50%, var(--purple3) 100%); 
+	background: -webkit-linear-gradient(left, var(--purple1) 0%, var(--purple2) 50%, var(--purple3) 100%); 
+	background: linear-gradient(to right, var(--purple1) 0%, var(--purple2) 50%, var(--purple3) 100%);
+}
+
+.add-button, .add-button:hover
+{
+	background: radial-gradient(#44006b, #ad1fff);
+	color: white;
+}
+
+.text-background
+{
+	-webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#circle1
+{
+	background:-moz-linear-gradient(left, var(--orange1) 0%, var(--orange2) 50%, var(--orange3) 100%); 
+	background: -webkit-linear-gradient(left, var(--orange1) 0%, var(--orange2) 50%, var(--orange3) 100%); 
+	background: linear-gradient(to right, var(--orange1) 0%, var(--orange2) 50%, var(--orange3) 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+
+#circle2
+{
+	background:-moz-linear-gradient(left, var(--yellow1) 0%, var(--yellow2) 50%, var(--yellow3) 100%); 
+	background: -webkit-linear-gradient(left, var(--yellow1) 0%, var(--yellow2) 50%, var(--yellow3) 100%); 
+	background: linear-gradient(to right, var(--yellow1) 0%, var(--yellow2) 50%, var(--yellow3) 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+
+#circle3
+{
+	background:-moz-linear-gradient(left, var(--green1) 0%, var(--green2) 50%, var(--green3) 100%); 
+	background: -webkit-linear-gradient(left, var(--green1) 0%, var(--green2) 50%, var(--green3) 100%); 
+	background: linear-gradient(to right, var(--green1) 0%, var(--green2) 50%, var(--green3) 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+
+#circle4
+{
+	background:-moz-linear-gradient(left, var(--blue1) 0%, var(--blue2) 50%, var(--blue3) 100%); 
+	background: -webkit-linear-gradient(left, var(--blue1) 0%, var(--blue2) 50%, var(--blue3) 100%); 
+	background: linear-gradient(to right, var(--blue1) 0%, var(--blue2) 50%, var(--blue3) 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+
+#circle5
+{
+	background:-moz-linear-gradient(left, var(--purple1) 0%, var(--purple2) 50%, var(--purple3) 100%); 
+	background: -webkit-linear-gradient(left, var(--purple1) 0%, var(--purple2) 50%, var(--purple3) 100%); 
+	background: linear-gradient(to right, var(--purple1) 0%, var(--purple2) 50%, var(--purple3) 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+
+.form-range::-webkit-slider-thumb
+{
+  	background: var(--blue1);
+}
+.form-range::-moz-range-thumb
+{
+  	background: var(--blue1);
+}
+.form-range::-ms-thumb
+{
+  	background: var(--blue1);
+}
