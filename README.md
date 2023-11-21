@@ -1,35 +1,12 @@
-Colegiul Național "Liviu Rebreanu"
-==================================
+# akashic dreams - lucrare de atestat profesional la informatică
 
-Lucrare de atestat profesional la Informatică
+Colegiul Național "Liviu Rebreanu", Bistrița, 2022
 
-**akashic dreams**
+Candidat, **Șorecău Adrian-Vasile**, Clasa a XII-a B
 
-Candidat,
+Profesor coordonator, **Candale Silviu Titus**
 
-*Șorecău Adrian-Vasile*
-
-Clasa a XII-a B
-
-Profesor coordonator,
-
-*Candale Silviu Titus*
-
-Bistrița, 2022
-
-Cuprins
-
-Argument 2
-
-Prezentarea aplicației 3
-
-Elemente de conținut 5
-
-Posibilități de dezvoltare 8
-
-Bibliografie 9
-
-Argument
+## Argument
 
 Mereu am fost fascinat de vise, de ce se întâmplă la nivel neurologic și
 spiritual în momentul în care dormim. Astfel, interesul meu pentru lumea
@@ -68,7 +45,7 @@ sau chiar sistemul de autentificare și înregistrare au fost o motivație
 să continui munca deoarece știam că învăț multe lucruri noi exersând și
 aplicația va merge în direcția cea bună.
 
-Prezentarea aplicației
+## Prezentarea aplicației
 
 Aplicația Web "akashic dreams" este dedicată celor ce vor să intre în
 lumea viselor lucide sau pur și simplu vor să țină evidența viselor.
@@ -102,7 +79,7 @@ pagina principală.
 
 ![](media/image3.png){width="6.5in" height="3.1277777777777778in"}
 
-Elemente de conținut
+## Elemente de conținut
 
 Aplicația Web *akashic dreams* este construită utilizând limbajele de
 programare:
@@ -255,7 +232,7 @@ bazei de date.
 O modalitate de a găsi anumite vise prin intermediul unui search bar.
 Aceasta ar presupune o căutare a cuvintelor scrise în tabela cu vise.
 
-Bibliografie
+## Bibliografie
 
 Aplicația a fost realizată cu ajutorul cunoștințelor dobândite în
 decursul clasei a XII-a la orele de informatică și al diferitelor
@@ -289,6 +266,8 @@ logo-urilor și alegerea paletelor de culori:
 Coolors - <https://coolors.co/>
 
 Naldz Graphics - <https://naldzgraphics.net/>
+
+
 
 Free Frontend - <https://freefrontend.com/>
 
