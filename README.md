@@ -1,10 +1,10 @@
 # akashic dreams - lucrare de atestat profesional la informatică
 
-Colegiul Național "Liviu Rebreanu", Bistrița, 2022
+> Colegiul Național "Liviu Rebreanu", Bistrița, 2022
 
-Candidat, **Șorecău Adrian-Vasile**, Clasa a XII-a B
+> Candidat, **Șorecău Adrian-Vasile**, Clasa a XII-a B
 
-Profesor coordonator, **Candale Silviu Titus**
+> Profesor coordonator, **Candale Silviu Titus**
 
 ## Argument
 
@@ -59,7 +59,7 @@ poate să-și vizualizeze visele personale și caracteristici ale acestora
 autentificare și înregistrare, în care poate fie să-și creeze un cont
 nou, fie să se autentifice cu unul deja existent.
 
-![](media/image1.png){width="6.5in" height="3.1770833333333335in"}
+![image](https://github.com/sorecauadrian/akashic_dreams/assets/79454929/9e2cba8f-c7af-4d5a-b411-b67dae26cbf6)
 
 După autentificare, utilizatorul este redirecționat pe pagina
 principală, unde se află jurnalul propriu-zis, alături de un buton de
@@ -68,7 +68,7 @@ deconectare și unul de adăugare a visului. Visele pot fi vizualizate
 fundal albastru, cele semi-lucide albastru-transparent, iar cele deloc
 lucide au fundal transparent.
 
-![](media/image2.png){width="6.5in" height="3.1666666666666665in"}
+![image](https://github.com/sorecauadrian/akashic_dreams/assets/79454929/f716d91c-4dc7-4b48-8d24-4cb6997460ee)
 
 În pagina de adăugare a visului, utilizatorul este rugat să completeze
 următoarele câmpuri: data, titlul și descrierea visului, precum și
@@ -77,31 +77,31 @@ avea după vis și cât de lucid a fost acesta. În urma completării tuturor
 câmpurilor, visul și statisticile visului vor putea fi vizualizate în
 pagina principală.
 
-![](media/image3.png){width="6.5in" height="3.1277777777777778in"}
+![image](https://github.com/sorecauadrian/akashic_dreams/assets/79454929/8dbe8ac8-959b-43a1-a0f1-8526d5353e94)
 
 ## Elemente de conținut
 
 Aplicația Web *akashic dreams* este construită utilizând limbajele de
 programare:
 
-> \- **PHP** pentru interacțiunea paginii web cu baza de date.
+> **PHP** pentru interacțiunea paginii web cu baza de date.
 
-\- **JavaScript** pentru interacțiunea dinamică a paginii web cu
+> **JavaScript** pentru interacțiunea dinamică a paginii web cu
 utilizatorul.
 
 De asemenea, am folosit librăriile:
 
-\- **Bootstrap 5** pentru aspectul aplicației web.
+> **Bootstrap 5** pentru aspectul aplicației web.
 
-\- **jQuery** pentru o sintaxă mai îngrijită și mai rapidă în scrierea
+> **jQuery** pentru o sintaxă mai îngrijită și mai rapidă în scrierea
 codului JavaScript.
 
-\- **FontAwesome** pentru includerea iconițelor în site.
+> **FontAwesome** pentru includerea iconițelor în site.
 
 Baza de date a aplicației web este alcătuită din 2 tabele care
 interacționează între ele în timpul utilizării aplicației.
 
-\- Tabela *users* conține date legate de utilizatorii site-ului.
+>> Tabela *users* conține date legate de utilizatorii site-ului.
 
 \- **id** -- cheia primară.
 
@@ -111,7 +111,7 @@ interacționează între ele în timpul utilizării aplicației.
 
 \- **created\_at** -- data creării contului.
 
-\- Tabela *dreams* conține date legate de visele utilizatorilor.
+>> Tabela *dreams* conține date legate de visele utilizatorilor.
 
 \- **id** -- cheia primară.
 
@@ -133,7 +133,7 @@ interacționează între ele în timpul utilizării aplicației.
 \- **lucidity** -- luciditatea visului, pe o scară de la 1 la 3 (1 --
 deloc lucid, 2 -- semi-lucid, 3 - lucid).
 
-Codul sursă al aplicației este împărțit în 4 foldere categorizate și 2
+> Codul sursă al aplicației este împărțit în 4 foldere categorizate și 2
 documente PHP principale, anume **index.php** și **db\_connection.php**.
 
 \- **index.php** este fișierul care gestionează afișarea paginilor web.
@@ -143,7 +143,7 @@ accesate decât anumite pagini.
 
 \- **db\_connection.php** realizează conexiunea cu baza de date.
 
-Folder-ul *pages* conține singurele pagini la care utilizatorul are
+> Folder-ul *pages* conține singurele pagini la care utilizatorul are
 acces.
 
 \- pagina **login\_signup** are ca scop crearea unui cont sau conectarea
@@ -162,9 +162,9 @@ datelor legate de utilizator din vectorul **\$\_SESSION**.
 \- pagina **404** este pagina la care este direcționat utilizatorul în
 cazul în care accesează un fișier la care nu are acces.
 
-![](media/image4.PNG){width="6.5in" height="3.428472222222222in"}
+![image](https://github.com/sorecauadrian/akashic_dreams/assets/79454929/5335af76-e6e3-4e20-a83a-c493b8285c10)
 
-Folder-ul *module* conține următoarele fișiere:
+> Folder-ul *module* conține următoarele fișiere:
 
 \- **navbar.php** care conține bara de navigare a paginii principale, în
 care este inclus logo-ul, alături de un buton de ștergere al contului și
@@ -176,21 +176,23 @@ paginilor.
 \- **functions.php** conține funcții PHP care ajută la interacțiunea cu
 baza de date.
 
-Folder-ul *javascript* conține un fișier cu funcții care modifică
+> Folder-ul *javascript* conține un fișier cu funcții care modifică
 dinamic conținutul paginilor la interacțiunea aplicației web cu
-utilizatorul. ![](media/image5.PNG){width="6.5in"
-height="3.373611111111111in"}
+utilizatorul. 
 
-Folder-ul *css* conține un fișier cu proprietăți ale anumitor elemente
+![image](https://github.com/sorecauadrian/akashic_dreams/assets/79454929/9d7ae17a-47c0-425a-b9fc-73c5bbf3521d)
+
+> Folder-ul *css* conține un fișier cu proprietăți ale anumitor elemente
 HTML, iar alături de librăriile *Bootstrap 5* și *FontAwesome*
-alcătuiesc stilul website-ului. ![](media/image6.PNG){width="6.5in"
-height="2.1215277777777777in"}
+alcătuiesc stilul website-ului. 
+
+![image](https://github.com/sorecauadrian/akashic_dreams/assets/79454929/1664abbc-1029-4eaf-bef5-3490e66b3283)
 
 **Un mare avantaj al aplicației este faptul că este compatibilă cu orice
 device. Adică este funcțională și are un aspect plăcut atât pe un
 laptop, cât și pe o tabletă sau un telefon.**
 
-Posibilități de dezvoltare
+## Posibilități de dezvoltare
 
 Securitatea este un punct slab al aplicației la momentul de față. Până
 și cele mai banale injecții SQL ar putea ajunge la baza de date. Aceasta
@@ -236,39 +238,27 @@ Aceasta ar presupune o căutare a cuvintelor scrise în tabela cu vise.
 
 Aplicația a fost realizată cu ajutorul cunoștințelor dobândite în
 decursul clasei a XII-a la orele de informatică și al diferitelor
-site-uri care oferă răspunsuri sau tutoriale la în domeniul web, cum ar
+site-uri care oferă răspunsuri sau tutoriale în domeniul web, cum ar
 fi:
 
-StackOverflow - <https://stackoverflow.com/>
-
-Youtube - <https://www.youtube.com/>
-
-TutorialRepublic - <https://www.tutorialrepublic.com/>
-
-MDBootstrap - <https://mdbootstrap.com/>
-
-W3Schools (PHP) - <https://www.w3schools.com/php/>
-
-PHP.net - <https://www.php.net/>
+<a href="https://stackoverflow.com/">StackOverflow</a>, 
+<a href ="https://www.youtube.com/">Youtube</a>, 
+<a href ="https://www.tutorialrepublic.com/">TutorialRepublic</a>, 
+<a href ="https://mdbootstrap.com/">MDBootstrap</a>, 
+<a href ="https://www.w3schools.com/php/">W3Schools (PHP)</a>, 
+<a href ="https://www.php.net/">PHP.net</a>
 
 De asemenea, au fost folosite următoarele librării:
 
-Bootstrap 5 - <https://getbootstrap.com/docs/5.0/>
-
-jQuery - <https://jquery.com/>
-
-FontAwesome - <https://fontawesome.com/>
+<a href ="https://getbootstrap.com/docs/5.0/">Bootstrap 5</a>, 
+<a href ="https://jquery.com/">jQuery</a>, 
+<a href ="https://fontawesome.com/">FontAwesome</a>
 
 Și nu în ultimul rând, o contribuție majoră la crearea site-ului au
 avut-o și site-urile specializate în design-ul site-urilor, crearea
 logo-urilor și alegerea paletelor de culori:
 
-Coolors - <https://coolors.co/>
-
-Naldz Graphics - <https://naldzgraphics.net/>
-
-
-
-Free Frontend - <https://freefrontend.com/>
-
-Canva - <https://www.canva.com/>
+<a href ="https://coolors.co/">Coolors</a>, 
+<a href ="https://naldzgraphics.net/">Naldz Graphics</a>, 
+<a href ="https://freefrontend.com/">Free Frontend</a>, 
+<a href ="https://www.canva.com/">Canva</a>
